@@ -1,0 +1,64 @@
+.center {
+    text-align: center;
+}
+.linestyle {
+    border: 1px solid black;
+}
+body{
+    background-color: rgb(222, 238, 238);
+}
+.fullbodyDiv {
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.firstdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+.divforName {
+    background-color: black;
+    width: 450px;
+    height: 80px;
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+#fullname {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.photograph {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin: 5px;
+    border-radius: 15px;
+}
+.divForphotograph {
+    margin-right: 100px;
+}
+.personalinfodiv {
+    margin: 5px
+}
+.personalinfodivFlex {
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+span {
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.jointdiv {
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}

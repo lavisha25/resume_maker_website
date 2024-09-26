@@ -1,0 +1,110 @@
+nav {
+    background-image: linear-gradient(#74D680, #378B29);
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color:#00308F;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+label{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: .05rem;
+    line-height: 1.5em;
+    max-width: 50%;
+    margin-top: .7rem;
+}
+select{
+    padding: .65em 1em;
+    border-radius: 4px;
+    max-width: 100%;
+    width: 32%;
+    margin-bottom: .1em;
+    border: 1px solid black;
+}
+#u input{
+    border-radius: 4px;
+    border: 1px solid black;
+    justify-content: right;
+
+}
+#option{
+    max-width: 100%;
+    width: 15%;
+    border-radius: 4px;
+    padding: .65em 1em;
+    margin-bottom: .1em;
+    border: .5px solid black;
+    word-wrap: normal;
+}
+#btn{
+    background-color:#d13639 ;
+    border: 1px solid #c1c0c5;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1.1rem 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 100px;
+    text-decoration: bold;
+    border-radius: 6px;
+}
+.button{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.btn{
+    height: 50px;
+    width: calc(10% - 4px);
+    border-radius: 6px;
+    border:0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-top: 50px;
+    margin-left:0;
+
+}
+.red-btn{
+    background-color: #d13639;
+}
+.gray-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(45, 32, 32);
+}
+.gray-btn:hover{
+    text-decoration: underline;
+}
